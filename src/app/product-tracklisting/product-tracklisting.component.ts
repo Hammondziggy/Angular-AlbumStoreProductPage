@@ -5,13 +5,13 @@ import { ProductService } from '../product.service';
 import { Album } from '../album';
 
 @Component({
-  selector: 'app-prodduct-tracklisting',
-  templateUrl: './prodduct-tracklisting.component.html',
-  styleUrls: ['./prodduct-tracklisting.component.css']
+  selector: 'app-product-tracklisting',
+  templateUrl: './product-tracklisting.component.html',
+  styleUrls: ['./product-tracklisting.component.css']
 })
-export class ProdductTracklistingComponent implements OnInit {
+export class ProductTracklistingComponent implements OnInit {
 
-  albumInfo:Album;
+  albumInfo: Album;
   
   constructor(private _productService: ProductService) { }
 
